@@ -1,0 +1,14 @@
+.navbar {
+  height: 108px;
+  display: flex;
+  align-items: center;
+  background-color: var(--global-cello-color);
+
+  .logo {
+    height: 40px;
+    margin-left: 50px;
+  }
+
+  justify-content: space-between;
+  border-bottom: 2px solid var(--global-border-color);
+}

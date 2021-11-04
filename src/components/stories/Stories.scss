@@ -1,0 +1,11 @@
+.stories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70vw;
+  padding: 20px;
+
+  .title {
+    width: 100%;
+  }
+}
