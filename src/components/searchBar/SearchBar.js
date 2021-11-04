@@ -30,6 +30,7 @@ const SearchBar = ({ handleSearch }) => {
       setShowDeleteIcon(true);
     }
     setAutoCompleteData([]);
+    if (searchRef.current.value === '') return;
     axios
       .get('news/autocompletes', {
         headers: {

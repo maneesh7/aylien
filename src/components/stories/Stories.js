@@ -42,11 +42,7 @@ const Stories = () => {
       )}
       {stories.length !== 0 && <h2 className="title">Stories</h2>}
       {stories.map((story, index) => {
-        return (
-          <div key={story.id + index}>
-            <Story story={story} />
-          </div>
-        );
+        return <Story key={story.id + index} story={story} />;
       })}
     </div>
   );
